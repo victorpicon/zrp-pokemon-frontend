@@ -4,6 +4,7 @@ ZRP PokeAPI is an application that uses NextJS and ReactJS to help trainers loca
 The application was made for the technical challenge of ZRP Applications, a brazilian software and digital products consulting company founded in 2015 and committed to technological innovation to solve its clients’ real challenges.
 
 ## 🎉 Bonus
+    • [Project is deployed at Vercel!](https://zrp-pokemon-frontend.vercel.app/)
     • Code formatting using Prettier
     • Code Linting using Eslint
     • Modal using ShadCN
@@ -13,7 +14,6 @@ The application was made for the technical challenge of ZRP Applications, a braz
     • Pokedex looking like GUI
 
 ## 💪 Improvement Points
-    • Deploy with an Serverless Solution
     • Develop new features
     • Improve the UI and UX to make it feel more like a Pokémon game
 
@@ -25,7 +25,7 @@ This project was developed with the following technologies:
     • ShadCN
 
 ## 🔧 Requirements
-To run this application, you only need to have docker on your computer.
+To run this application, you only need to ensure that the API is running and that you have docker on your computer.
 You can verify its installation by running the command docker compose version or docker-compose --version in your terminal.
 
 ## 🏃 How to Run

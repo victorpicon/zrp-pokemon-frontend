@@ -1,9 +1,9 @@
-import Header from "@/components/header";
-import PokemonList from "@/components/pokemonList";
+import Header from '@/components/header';
+import PokemonList from '@/components/pokemonList';
 
 export default async function Home() {
-  const res = await fetch("https://pokeapi.co/api/v2/pokemon?limit=151", {
-    cache: "no-store",
+  const res = await fetch('https://pokeapi.co/api/v2/pokemon?limit=151', {
+    cache: 'no-store',
   });
   const data = await res.json();
 

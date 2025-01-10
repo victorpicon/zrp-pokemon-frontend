@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import {
   AlertDialog,
@@ -9,8 +9,8 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
-import { useState } from "react";
+} from '@/components/ui/alert-dialog';
+import { useState } from 'react';
 
 interface Pokemon {
   name: string;
@@ -31,7 +31,6 @@ export default function PokemonList({ pokemons }: { pokemons: Pokemon[] }) {
     }
   };
 
-
   return (
     <div className="bg-white text-black w-[98%] rounded-xl flex pt-12 pb-12 justify-center xl:max-h-[800px] overflow-auto">
       <div className="flex flex-wrap gap-5 max-w-[1000px] justify-center">
@@ -47,9 +46,10 @@ export default function PokemonList({ pokemons }: { pokemons: Pokemon[] }) {
                   <img
                     alt={pokemon.name}
                     className="max-h-24 absolute bottom-10 z-10"
-                    src={`https://projectpokemon.org/images/sprites-models/bw-animated/${String(
-                      index + 1
-                    ).padStart(3, "0")}.gif`}
+                    src={`https://projectpokemon.org/images/sprites-models/bw-animated/${String(index + 1).padStart(
+                      3,
+                      '0',
+                    )}.gif`}
                   />
                 </div>
               </div>
@@ -64,7 +64,10 @@ export default function PokemonList({ pokemons }: { pokemons: Pokemon[] }) {
                     <AlertDialogDescription className="flex">
                       <div>
                         {selectedPokemonDetails.abilities.map((ability: string, i: number) => (
-                          <h1 key={i + 1} className="capitalize text-left"> &gt; {ability}</h1>
+                          <h1 key={i + 1} className="capitalize text-left">
+                            {' '}
+                            &gt; {ability}
+                          </h1>
                         ))}
                       </div>
                       <img
@@ -72,17 +75,20 @@ export default function PokemonList({ pokemons }: { pokemons: Pokemon[] }) {
                         alt={`${pokemon.name} sprite`}
                         className="h-32 right-24 top-16 absolute z-20"
                       />
-                      <img src="https://media.discordapp.net/attachments/1276756347639300199/1327108215061745736/READ.png?ex=6781dd56&is=67808bd6&hm=dd5f6ff2c2ffae15fdb0eec3e997d8a309c15792b6c64481c458fd26bf8af01d&=&format=webp&quality=lossless&width=1342&height=671"
-                        className="absolute top-10 right-0 h-32 " />
+                      <img
+                        src="https://media.discordapp.net/attachments/1276756347639300199/1327108215061745736/READ.png?ex=6781dd56&is=67808bd6&hm=dd5f6ff2c2ffae15fdb0eec3e997d8a309c15792b6c64481c458fd26bf8af01d&=&format=webp&quality=lossless&width=1342&height=671"
+                        className="absolute top-10 right-0 h-32 "
+                      />
                     </AlertDialogDescription>
                   )
                 ) : (
                   <p>Loading...</p>
                 )}
-
               </AlertDialogHeader>
               <AlertDialogFooter className="pr-52">
-                <AlertDialogCancel className="bg-red-600 text-white hover:bg-red-800 hover:text-white">Return</AlertDialogCancel>
+                <AlertDialogCancel className="bg-red-600 text-white hover:bg-red-800 hover:text-white">
+                  Return
+                </AlertDialogCancel>
               </AlertDialogFooter>
             </AlertDialogContent>
           </AlertDialog>

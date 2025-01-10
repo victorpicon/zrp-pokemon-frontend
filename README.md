@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PokeApi
+ZRP PokeAPI is an application that uses NextJS and ReactJS to help trainers locate their Pokémon's abilities. In the app, you'll find the 151 initial Pokémon of Kanto sorted by their Pokédex numbers and, when you select the desired Pokémon, you'll see a list of its abilities in alphabetical order. 
+The application was made for the technical challenge of ZRP Applications, a brazilian software and digital products consulting company founded in 2015 and committed to technological innovation to solve its clients’ real challenges.
 
-## Getting Started
+## 🎉 Bonus
+    • Code formatting using Prettier
+    • Code Linting using Eslint
+    • Modal using ShadCN
+    • TailwindCSS implementation
+    • Showing all Pokémons
+    • Animated Pokémons and cards
+    • Pokedex looking like GUI
 
-First, run the development server:
+## 💪 Improvement Points
+    • Deploy with an Serverless Solution
+    • Develop new features
+    • Improve the UI and UX to make it feel more like a Pokémon game
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Technologies
+This project was developed with the following technologies:
+    • NextJS
+    • ReactJS
+    • TailwindCSS
+    • ShadCN
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 Requirements
+To run this application, you only need to have docker on your computer.
+You can verify its installation by running the command docker compose version or docker-compose --version in your terminal.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏃 How to Run
+    1. Make a clone;
+    2. Open the project on your terminal;
+    3. Run docker compose up to run the server;
+    • By default the server will run at localhost:3000.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Alternatively you can run the project using `npm i --force` and then `npm run dev`
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤔 How to contribute
+    • Make a fork;
+    • Create a branch with your feature: git checkout -b my-feature;
+    • Do commit with your changes: git commit -m 'feat: My new feature';
+    • Do a push for your branch: git push origin my-feature.
+After the merge of your pull request was made, you can delete your branch.

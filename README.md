@@ -1,3 +1,4 @@
+![ReadMe](https://media.discordapp.net/attachments/1276756347639300199/1327119824702148700/1.png?ex=678290e6&is=67813f66&hm=dbe8bcf00871cfb8251f0beff171c4e212468bdfaa88efd538e6020469f6e0e6&=&format=webp&quality=lossless&width=1342&height=671)
 # PokeApi
 ZRP PokeAPI is an application that uses NextJS and ReactJS to help trainers locate their Pokémon's abilities. In the app, you'll find the 151 initial Pokémon of Kanto sorted by their Pokédex numbers and, when you select the desired Pokémon, you'll see a list of its abilities in alphabetical order. 
 The application was made for the technical challenge of ZRP Applications, a brazilian software and digital products consulting company founded in 2015 and committed to technological innovation to solve its clients’ real challenges.
